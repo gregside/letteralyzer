@@ -26,7 +26,7 @@ const NameList: React.FC<Props> = ({
   };
 
   const handleDelete = () => {
-    event.preventDefault();
+    event?.preventDefault();
     setList([]);
   };
 
